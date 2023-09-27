@@ -30,9 +30,9 @@ int main()
 
 		if (value == 1)
 		{
-			int Avoi;
+			double avoi;
 			cout << "Please enter a mass in Avoirdupois pounds: ";
-			cin >> Avoi;
+			cin >> avoi;
 			if (cin.fail())
 			{
 				cout << "Please enter a valid value." << endl;
@@ -40,13 +40,13 @@ int main()
 				continue;
 			}
 			clear_keyboard_buffer();
-			m.setMassAvoirdupoisPounds(Avoi);
+			m.setMassAvoirdupoisPounds(avoi);
 		}
 		else if (value == 2)
 		{
-			int Troy;
+			double troy;
 			cout << "Please enter a mass in Troy pounds: ";
-			cin >> Troy;
+			cin >> troy;
 			if (cin.fail())
 			{
 				cout << "Please enter a valid value." << endl;
@@ -54,11 +54,11 @@ int main()
 				continue;
 			}
 			clear_keyboard_buffer();
-			m.setMassTroyPounds(Troy);
+			m.setMassTroyPounds(troy);
 		}
 		else if (value == 3)
 		{
-			int grams;
+			double grams;
 			cout << "Please enter a mass in grams: ";
 			cin >> grams;
 			if (cin.fail())
