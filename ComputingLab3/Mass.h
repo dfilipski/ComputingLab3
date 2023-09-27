@@ -13,9 +13,9 @@ public:
 	void setMassTroyPounds(const double troy_pounds);
 	void setMassMetricGrams(const double grams);
 
-	double getMassAvoirdupoisPounds();
-	double getMassTroyPounds();
-	double getMassMetricGrams();
+	double getMassAvoirdupoisPounds() const;
+	double getMassTroyPounds() const;
+	double getMassMetricGrams() const;
 private:
 	double _mass_drams;
 };

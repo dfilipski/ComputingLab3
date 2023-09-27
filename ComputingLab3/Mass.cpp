@@ -15,17 +15,17 @@ void Mass::setMassMetricGrams(const double grams)
 	_mass_drams = grams / grams_per_dram;
 }
 
-double Mass::getMassAvoirdupoisPounds()
+double Mass::getMassAvoirdupoisPounds() const
 {
 	return _mass_drams * avoirdupois_pounds_per_dram;
 }
 
-double Mass::getMassTroyPounds()
+double Mass::getMassTroyPounds() const
 {
 	return _mass_drams * troy_pounds_per_dram;
 }
 
-double Mass::getMassMetricGrams()
+double Mass::getMassMetricGrams() const
 {
 	return _mass_drams * grams_per_dram;
 }
