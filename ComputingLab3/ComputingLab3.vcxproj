@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ComputingLab3.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Mass.cpp" />
   </ItemGroup>
   <ItemGroup>
