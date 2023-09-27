@@ -72,6 +72,7 @@ int main()
 		}
 		else if (value == 0)
 		{
+			cout << "Goodbye :)" << endl;
 			quit = 0;
 			continue;
 		}
@@ -83,6 +84,6 @@ int main()
 
 		cout << "Mass in Avoirdupois pounds is " << m.getMassAvoirdupoisPounds() << endl;
 		cout << "Mass in Troy pounds is " << m.getMassTroyPounds() << endl;
-		cout << "Mass in grams is " << m.getMassMetricGrams() << endl;
+		cout << "Mass in grams is " << m.getMassMetricGrams() << endl << endl;
 	} while (quit != 0);
 }
